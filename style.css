@@ -1,0 +1,655 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./images/day_pattern.jpg);
+    background-attachment: fixed;
+}
+.backgrounddesktop{
+    display: none;
+}
+.mobilebackgroundimg{
+    position: relative;
+}
+.navigation{
+    width: 90%;
+    position: absolute;
+    display: none;
+}
+.mobilebackgroundimg img{
+    margin-bottom: -4px;
+}
+.blendcolorheader{
+    background-color: #32acf9;
+    font-family: boogaloo, cursive;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 50;
+    padding-bottom: 2%;
+}
+.blendcolorheader h4{
+    text-align: center;
+    border: solid white 3px;
+    width: 48%;
+    line-height: 36px;
+    margin-top: 4%;
+}
+.blendcolorheader h4:hover{
+    background-color: #013372;
+    transition: 0.60s;
+}
+.moveimg{
+    margin-top: 40px;
+    background-image: url("./images/scallop_top.png");
+    min-height: 20px; 
+    height: 100%;
+}
+main{
+    background-color: white;
+}
+.gameinfo .gamestory{
+    color: #2A36A0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    text-align: center;
+    padding:60px 50px
+}
+.gameinfo p b{
+    color: #F7A07C;
+}
+.flexbox2{
+    margin-top: -25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding:0px 60px;
+}
+.key-featuresimg{
+    width: 100%;
+    margin-right:10px ;
+    margin-left: 10px;
+    margin: auto;
+}
+.flexbox2 p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #2A36A0;
+}
+.images{
+    display: flex;
+    justify-content: center;
+}
+.image1{
+    width: 84%;
+    height: 74%;
+    padding: 40px 20px;
+}
+.imagenone{
+    display: none;
+}
+.moreinfoaboutthisgame{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    row-gap: 18px;
+}
+.mewsterpiece p {
+    display: none;
+}
+.moreinfoaboutthisgame p{
+    border: solid #F68E56 5px;
+    font-family: boogaloo, cursive;
+    text-align: center;
+    background-color: #F68E56;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.50em;
+    width: 450px;
+}
+.moreinfoaboutthisgame p:hover{
+    background-color: white;
+    color: #F68E56;
+    transition: 0.60s;
+}
+.craft1{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.craft1info{
+    margin-top:18px;
+    text-align: center;
+}
+.craft1info p{
+    font-size: 1.30em;
+    color: #2A36A0;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#orangep{
+    color:#F68E56 ;
+}
+.annikandgirrafeear{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 60px;
+}
+.annikandgirrafeear img{
+    width: 80%;
+}
+.annikandgirrafeear p{
+    font-family: boogaloo, cursive;
+    background-color:#F68E56;
+    color: white;
+    font-size: 1.50em;
+    border-radius: 8px;
+    width: 65%;
+    padding: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin: auto;
+    margin-top: 2%;
+    border: solid #F68E56 5px;
+}
+.annikandgirrafeear p:hover{
+    background-color: white;
+    color: #F68E56;
+    transition: 0.60s;
+}
+.craft2{
+    text-align: center;
+}
+.craft2info{
+    font-size: 1em;
+    color: #2A36A0;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 70px;
+}
+.craft2colorbook{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    row-gap: 15px;
+    padding-bottom: 30px;
+}
+.craft2colorbook img{
+    width: 70%;
+    border: solid black 1px;
+}
+.craft2colorbook p{
+    font-family: boogaloo, cursive;
+    font-size: 1.50em;
+    background-color: #F68E56;
+    color: white;
+    border: solid #F68E56 5px;
+    width: 70%;
+    margin-right:10px ;
+    margin-left: 10px;
+    margin: auto;
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 15px;
+}
+.craft2colorbook p:hover{
+    background-color: white;
+    color: #F68E56;
+    transition: 0.60s;
+}
+.backgroundscallop{
+    background-image: url(./images/scallop_bottom.png); 
+    height: 100%;
+    min-height: 25px; 
+}
+.img img{
+    margin-top: 30px;
+    width: 70%;
+}
+.moveimgflex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    column-gap: 13px;
+}
+.icons img{
+    width: 4%;
+    border: solid black 2px;
+    padding: 5px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+.moveimg2 p{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    color: white;
+    text-align: center;
+    font-size: 1.20em;
+}
+.contact{
+    text-align: center;
+    margin-bottom: 25px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 88%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: auto;
+}
+form input{
+    padding: 7px 10px;
+    margin-top:5px;
+    border: none;
+    border-radius: 3px;
+}
+form button{
+    background-color: #aaaaaa;
+    color: white;
+    font-family: boogaloo, cursive;
+    font-size: 1em;
+    padding: 5px 10px;
+    margin-top:5px;
+    border: none;
+    border-radius: 3px;
+}
+form button:hover{
+    background-color: #777777;
+    transition: 0.60s;
+}
+footer{
+    background-color: black;
+}
+.invi{
+    color: black;
+}
+.sponsor{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    padding-left: 70px;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+#sponsor1{
+    width: 100%;
+}
+#sponsor2{
+    display: flex;
+    column-gap: 7px;
+    justify-content: center;
+}
+#sponsor2 .img1sponsor2{
+    width: 23%;
+}
+#sponsor2 .img1sponsor3{
+    width: 40%;
+}
+.sponsor img{
+    width: 20%;
+}
+#sponsor3{
+    width: 45%;
+}
+#sponsor4{
+    width: 100%;
+}
+#sponsor5{
+    width: 80%;
+}
+#sponsor6{
+    width: 70%;
+}
+.footerparagraph{
+    color: white;
+    text-align: center;
+    font-size: 0.80em;
+    margin: 10px 15px;
+}
+
+
+
+
+
+
+@media (min-width: 576px) { 
+
+ }
+
+
+@media (min-width: 768px) { 
+    .backgroundphone{
+        display: none;
+    }
+    .backgrounddesktop{
+        display: block;
+    }
+    .navigation {
+        display: inline;
+        position: absolute;
+        top:0%;
+        background-color: #32ACF9;
+        width: 100%;
+        box-shadow: 0 9px 13px -6px rgb(0 0 0 / 31%);
+        position: fixed;
+    }
+    .navigation ul li{
+        display: inline;
+        float:right;
+        margin-top: 1.27%;
+        margin-bottom: 1.27%;
+        margin-right: 0.35%;
+    }
+    .list1:hover{
+        background-color: #00306F;
+        transition: 0.60s;
+    }
+    .list2{
+        background-color:#F68E56 ;
+    }
+    .list2:hover{
+        background-color:#00306F ;
+        color: #F68E56 ;
+        transition: 0.60s;
+    }
+    .list3:hover{
+        background-color:#00306F ;
+        color: #F68E56 ;
+        transition: 0.60s;
+    }
+    .blendcolorheader{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        column-gap: 35px;
+    }
+    .blendcolorheader h4{
+        width: 35%;
+        margin-top: 20px;
+    }
+    .key-featuresimg{
+        width: 80%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin: auto;
+    }
+    .images{
+        display: flex;
+    }
+    .allimg{
+        display: block;
+        width: 20%;
+        height: 5%;
+        padding: 40px 10px;
+    }
+    .moreinfoaboutthisgame{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        row-gap: 30px;
+    }
+    .moreinfoaboutthisgame p{
+        border: solid #F68E56 5px;
+        font-family: boogaloo, cursive;
+        text-align: center;
+        background-color: #F68E56;
+        color: white;
+        border-radius: 8px;
+        padding: 13px;
+        font-size: 1.50em;
+        width: 465px;
+    } 
+    .craftlogo{
+        width: 65%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin: auto;
+    }
+    .annikandgirrafeear{
+        display: flex;
+        flex-direction: row;
+    }
+    .craft2colorbook{
+        display: flex;
+        flex-direction: row;
+    }
+    .craft2colorbook img{
+        width: 80%;
+        border: solid black 1px;
+    }
+    .anniandfriends img{
+        width: 83%;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        column-gap: 13px;
+    }
+    .icons img{
+        width: 3.40%;
+        border: solid black 2px;
+        padding: 5px 20px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    form{
+        display: flex;
+        flex-direction: row;
+    }
+    .img img{
+        width: 50%;
+    }
+    form input{
+        width: 50%;
+        margin-right: 10px;
+    }
+    .sponsor{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+        margin-right: 40px;
+        margin-left: 10px;
+        row-gap: 20px;
+    }
+    #sponsor5{
+        grid-column: 2/3;
+    }
+    #sponsor4{
+        margin-top: 15px;
+        margin-left: -50px;
+    }
+    .footerparagraph{
+        margin-top: 25px;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    .navigation ul li{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .firstl{
+        margin-right: 8px;
+    }
+    .blendcolorheader h4{
+        width: 28%;
+    }
+    .key-featuresimg{
+        width: 58.30%;
+    }
+    .flexbox2{
+        padding: 0px 80px;
+    }
+    .craftlogo{
+        width: 54%;
+    }
+    .Annika{
+        width: 70%;
+    }
+    .Annika p{
+        width: 65%;
+    }
+    .giraffe{
+        width: 70%;
+    }
+    .giraffe p {
+        width: 65%;
+    }
+    .craft2colorbook p {
+        width: 80%;
+    }
+    .img img{
+        width: 40%;
+    }
+    .icons img{
+        width: 3%;
+    }
+    .sponsor{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        row-gap: 40px;
+    }
+    #sponsor1{
+        width: 90%;
+    }
+    #sponsor4{
+        margin-left: -60px;
+        margin-top: 15px;
+    }
+    #sponsor5{
+        margin-left: -30px;
+        margin-top: 15px;
+        grid-column: 6/5
+    }
+    #sponsor6{
+        grid-column:4/3;
+        width: 50%;
+    }
+ }
+@media (min-width: 1200px) { 
+    .blendcolorheader h4{
+        width: 23%;
+        margin-top: 20px;
+        margin-bottom: -10px;
+    }
+    .key-featuresimg{
+        width: 48.30%;
+    }
+    .moreinfoaboutthisgame{
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 30px;
+    }
+    .lastp{
+        display: none;
+    }
+    .mewsterpiece{
+        margin-top: 20px;
+    }
+    .mewsterpiece p{
+        border: solid #F68E56 5px;
+        font-family: boogaloo, cursive;
+        text-align: center;
+        background-color: #F68E56;
+        color: white;
+        border-radius: 8px;
+        padding: 15px;
+        font-size: 1.50em;
+        width: 450px;
+        margin: auto;
+        display: block;
+    }
+    .mewsterpiece p:hover{
+        background-color: white;
+        color: #F68E56;
+        transition: 0.60s;
+    }
+    .img img{
+        width: 35%;
+    }
+    .icons img{
+        width: 2%; 
+    }
+    .contact form input{
+        width: 30%;
+    }
+    .sponsor{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+    #sponsor1{
+        width: 17%;
+        height: 10%;
+    }
+    #sponsor2{
+        width: 20%;
+    }
+    #sponsor3{
+        width: 7%;
+        height: 10%;
+    }
+    #sponsor4{
+        width: 15%;
+        height: 10%;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    #sponsor5{
+        width: 13%;
+        height: 10%;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    #sponsor6{
+        width: 11%;
+        height: 9%;
+        margin-top: 15px;
+    }
+ }
+
+
+@media (min-width: 1400px) { 
+    .blendcolorheader h4{
+        width: 20%;
+    }
+    .key-featuresimg{
+        width: 40%;
+    }
+    .craftlogo{
+        width: 40%;
+    }
+    .girandanni img{
+        width: 60%;
+    }
+    .girandanni p{
+        width: 60%;
+    }
+    .anniandfriends img{
+        width: 62%;
+    }
+    .anniandfriends p{
+        width: 60%;
+    }
+    .img img{
+        width: 30%;
+    }
+    .icons img{
+        width: 2%;
+    }
+ }
